@@ -8,7 +8,7 @@ const fs = require("fs");
 const OUTPUT_DIR = path.resolve(__dirname, "view");
 const outputPath = path.join(OUTPUT_DIR, "team.html");
 
-const render = require("./lib/renderer");
+const render = require("./lib/Renderer");
 
 const employees = [];
 
