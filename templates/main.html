@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title style="background-color: rgb(240, 72, 72)">My Team(Team Profile Generator)</title>
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<script src="https://kit.fontawesome.com/c502137733.js"></script>
+	</head>
+
+	<body style="background-color:#c5c3d8;">
+		<div class="container-fluid">
+			<div class="row">
+				<div
+					class="col-12 jumbotron mb-3 team-heading"
+					style="background-color: red"
+				>
+					<h1 class="text-center" style="font-size: 65px; color: white;">My Team</h1>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="team-area col-12 d-flex justify-content-center">
+					{{ team }}
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
